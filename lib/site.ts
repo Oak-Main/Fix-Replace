@@ -45,19 +45,22 @@ export const ORG = {
   /** Governing state for the Terms of Use. */
   governingState: "California",
   address: {
-    street: "2108 N St.",
-    locality: "Sacramento",
+    street: "1223 Cleveland Ave, Suite 200",
+    locality: "San Diego",
     region: "CA",
-    postalCode: "95816",
+    postalCode: "92103",
     country: "US",
   },
   /**
    * Contact mailbox published in the footer and both legal pages.
    * NOTE: this address must exist and be monitored — the Privacy Policy
    * commits to a five-business-day response. Change here to change it
-   * everywhere.
+   * everywhere. It is on `.net` for the reason given at the top of this file:
+   * `support@repair-or-replace.com` had no mail server behind it. `hello@` is
+   * routed by Cloudflare Email Routing to the operator's inbox (verified
+   * 2026-11-13).
    */
-  email: "support@repair-or-replace.com",
+  email: "hello@repair-or-replace.net",
 } as const
 
 /** One-line postal address for compact display. */

@@ -75,7 +75,7 @@ export default function PrivacyPage() {
         eyebrow="Legal"
         heading="Privacy policy"
         lede="No ad cookies, no data sold, no profiling. Aggregate analytics only; your inputs stay in your session."
-        provenanceLine="Effective July 1, 2026"
+        provenanceLine="Effective November 13, 2026"
       />
       <Container>
         <div className="mx-auto max-w-[68ch] py-12 pb-24">
