@@ -74,7 +74,7 @@ export default function TermsPage() {
         eyebrow="Legal"
         heading="Terms of use"
         lede="Results are estimates for informational purposes — not professional advice."
-        provenanceLine="Effective July 1, 2026"
+        provenanceLine="Effective November 13, 2026"
       />
       <Container>
         <div className="mx-auto max-w-[68ch] py-12 pb-24">
